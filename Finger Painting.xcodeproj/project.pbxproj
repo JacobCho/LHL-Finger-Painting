@@ -14,6 +14,9 @@
 		526DB48919F196C0001F29D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526DB48819F196C0001F29D0 /* Images.xcassets */; };
 		526DB48C19F196C0001F29D0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 526DB48A19F196C0001F29D0 /* LaunchScreen.xib */; };
 		526DB49819F196C0001F29D0 /* Finger_PaintingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 526DB49719F196C0001F29D0 /* Finger_PaintingTests.m */; };
+		526DB4A319F197B0001F29D0 /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 526DB4A219F197B0001F29D0 /* DrawingView.m */; };
+		526DB4A519F1A573001F29D0 /* eraser.png in Resources */ = {isa = PBXBuildFile; fileRef = 526DB4A419F1A573001F29D0 /* eraser.png */; };
+		526DB4A819F1B31B001F29D0 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 526DB4A719F1B31B001F29D0 /* Line.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,11 @@
 		526DB49119F196C0001F29D0 /* Finger PaintingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Finger PaintingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		526DB49619F196C0001F29D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		526DB49719F196C0001F29D0 /* Finger_PaintingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Finger_PaintingTests.m; sourceTree = "<group>"; };
+		526DB4A119F197B0001F29D0 /* DrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
+		526DB4A219F197B0001F29D0 /* DrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
+		526DB4A419F1A573001F29D0 /* eraser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eraser.png; sourceTree = "<group>"; };
+		526DB4A619F1B31B001F29D0 /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		526DB4A719F1B31B001F29D0 /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +93,12 @@
 				526DB48019F196C0001F29D0 /* AppDelegate.m */,
 				526DB48219F196C0001F29D0 /* ViewController.h */,
 				526DB48319F196C0001F29D0 /* ViewController.m */,
+				526DB4A119F197B0001F29D0 /* DrawingView.h */,
+				526DB4A219F197B0001F29D0 /* DrawingView.m */,
+				526DB4A619F1B31B001F29D0 /* Line.h */,
+				526DB4A719F1B31B001F29D0 /* Line.m */,
 				526DB48519F196C0001F29D0 /* Main.storyboard */,
+				526DB4A419F1A573001F29D0 /* eraser.png */,
 				526DB48819F196C0001F29D0 /* Images.xcassets */,
 				526DB48A19F196C0001F29D0 /* LaunchScreen.xib */,
 				526DB47B19F196C0001F29D0 /* Supporting Files */,
@@ -202,6 +215,7 @@
 				526DB48719F196C0001F29D0 /* Main.storyboard in Resources */,
 				526DB48C19F196C0001F29D0 /* LaunchScreen.xib in Resources */,
 				526DB48919F196C0001F29D0 /* Images.xcassets in Resources */,
+				526DB4A519F1A573001F29D0 /* eraser.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +233,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				526DB4A819F1B31B001F29D0 /* Line.m in Sources */,
 				526DB48419F196C0001F29D0 /* ViewController.m in Sources */,
 				526DB48119F196C0001F29D0 /* AppDelegate.m in Sources */,
 				526DB47E19F196C0001F29D0 /* main.m in Sources */,
+				526DB4A319F197B0001F29D0 /* DrawingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

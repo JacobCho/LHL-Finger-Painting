@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Line.h
 //  Finger Painting
 //
 //  Created by Jacob Cho on 2014-10-17.
@@ -8,10 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UIGestureRecognizerDelegate>
-
-
-
+@interface Line : UIBezierPath
+@property (nonatomic, strong) UIColor *color;
 
 @end
-
