@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Line.h"
+#import "DrawingView.h"
 
 @interface ViewController : UIViewController <UIGestureRecognizerDelegate>
-
-
-
+@property (strong, nonatomic) IBOutlet DrawingView *drawingView;
+- (IBAction)eraserButtonTouched:(UIButton *)sender;
+- (IBAction)blackButtonPressed:(UIButton *)sender;
+- (IBAction)redButtonPressed:(UIButton *)sender;
 
 @end
 

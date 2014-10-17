@@ -7,11 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Line.h"
 
 @interface DrawingView : UIView
-- (IBAction)eraserButtonPressed:(UIButton *)sender;
-- (IBAction)blackButtonPressed:(UIButton *)sender;
-- (IBAction)redButtonPressed:(UIButton *)sender;
-
+@property (strong, nonatomic) Line *path;
+@property (strong, nonatomic) NSMutableArray *arrayOfLines;
 
 @end

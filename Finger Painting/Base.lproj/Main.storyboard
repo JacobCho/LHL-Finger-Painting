@@ -22,7 +22,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="eraserButtonPressed:" destination="kh9-bI-dsS" eventType="touchUpInside" id="KUe-U2-iL2"/>
+                                    <action selector="eraserButtonTouched:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="fdY-mK-Cim"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fOf-ZN-DrE">
@@ -32,7 +32,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="blackButtonPressed:" destination="kh9-bI-dsS" eventType="touchUpInside" id="YiN-Iy-tA7"/>
+                                    <action selector="blackButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="EV3-tR-0kl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YqS-sT-Rlt">
@@ -42,12 +42,16 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="redButtonPressed:" destination="kh9-bI-dsS" eventType="touchUpInside" id="Tqc-8F-8po"/>
+                                    <action selector="redButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="4jS-hj-zZ4"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="drawingView" destination="kh9-bI-dsS" id="Suc-cz-2ol"/>
+                        <outletCollection property="drawingView" destination="kh9-bI-dsS" id="4VX-o1-Fv6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
