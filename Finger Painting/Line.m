@@ -10,4 +10,18 @@
 
 @implementation Line
 
+-(instancetype)init {
+    
+    self = [super init];
+   
+    if (!_eraser) {
+        [self setLineWidth:2.0];
+    }
+    else {
+        [self setLineWidth:20];
+    }
+
+    return self;
+}
+
 @end

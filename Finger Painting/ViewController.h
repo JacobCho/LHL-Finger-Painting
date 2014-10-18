@@ -15,6 +15,7 @@
 - (IBAction)eraserButtonTouched:(UIButton *)sender;
 - (IBAction)blackButtonPressed:(UIButton *)sender;
 - (IBAction)redButtonPressed:(UIButton *)sender;
+- (IBAction)clearBoardPressed:(UIButton *)sender;
 
 @end
 

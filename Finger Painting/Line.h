@@ -10,5 +10,6 @@
 
 @interface Line : UIBezierPath
 @property (nonatomic, strong) UIColor *color;
+@property (nonatomic, assign) BOOL eraser;
 
 @end
